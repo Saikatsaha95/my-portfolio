@@ -1,0 +1,21 @@
+.img-size {
+  width: 350px;
+  height: 350px;
+}
+
+.aboutme-content {
+  color: gray;
+  text-align: justify;
+}
+
+.left-side-text {
+  color: #8b5cf6;
+}
+.fab {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.fab:hover {
+  transform: scale(1.2);
+}

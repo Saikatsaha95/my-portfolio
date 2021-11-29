@@ -1,0 +1,54 @@
+.banner-section {
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #4d4388 0%,
+    #4d4388 32%,
+    rgb(4, 4, 47) 32%,
+    rgb(4, 4, 47) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-area {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.gradient-text {
+  background: linear-gradient(120deg, #ff00f7, #00d0ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 55px;
+}
+
+.img-rounded {
+  border-radius: 50%;
+  border: 5px solid #3c3080;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.download-btn {
+  padding: 15px;
+  border: 2px solid #4d4388;
+  border-radius: 10px;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.download-btn:hover a {
+  color: white;
+}
+
+.download-btn:hover {
+  background-color: #4d4388;
+}
