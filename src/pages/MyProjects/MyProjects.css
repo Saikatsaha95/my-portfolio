@@ -1,0 +1,16 @@
+.link-btn {
+  padding: 10px;
+
+  background-color: #8b5cf6;
+
+  border-radius: 10px;
+  transition: all 0.1s ease-in-out;
+}
+
+.link-btn:hover {
+  transform: translateY(3px);
+}
+
+.top-margin {
+  margin-top: 140px;
+}

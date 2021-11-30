@@ -32,7 +32,7 @@ const ContactMe = () => {
     e.target.reset();
   };
   return (
-    <div>
+    <div className="top-margin mb-5">
       <div className="container px-4 my-5">
         <h1
           data-aos="fade-up"
